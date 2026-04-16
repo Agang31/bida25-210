@@ -18,7 +18,7 @@ header {
 
 header h1 { 
     font-family: 'Pacifio', cursive;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     background-color: #fc73c7;
     -webkit-background-clip: text;
@@ -28,14 +28,14 @@ header h1 {
 }  
 
 nav { 
-    background: linear-gradient(#7af6ee, #eafffe);
+    background: linear-gradient(#7af6ee, #393a3a);
     padding: 15px 20px;
     width: 100%;
     box-sizing: border-box;
 }
 
 nav a {
-    color: #333;
+    color: #d45151;
     text-decoration: none; 
     margin: 0 20px; 
     font-size: 1.1em;
@@ -43,7 +43,7 @@ nav a {
 } 
 
 nav a:hover { 
-    text-decoration: underline; 
+    text-decoration: underline;
 } 
 
 main { 
@@ -98,13 +98,17 @@ footer {
     box-sizing: border-box;
 }
 
+.puppycard:hover {
+    color: #8f135f;
+}
+
 .puppycard {
     border: 2px solid #f7daff;
     border-radius: 10px;
     border-color: #7af6ee;
     overflow: hidden;
     background: rgb(255, 255, 255,0.2);
-    width: 100%;
+    width: 300px;
 }
 
 .puppycard img {
@@ -117,12 +121,18 @@ footer {
     padding: 8px 12px;
     margin: 0;
     font-size: 12px;
+    list-style: disc outside none;
+    padding-left: 20px;
 }
 
 .puppycard ul li {
     margin-bottom: 4px;
     font-size: 15px;
     line-height: 1.8;
+    padding-left: 20px;
+    margin: 0;
+    display: list-item;
+    list-style-type: disc;
 }
 
 .card {
@@ -188,4 +198,12 @@ footer {
     flex-direction: row;
     gap: 30px;
     margin: 30px 0;
+}
+
+.statistics {
+     display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin: 30px 0
 }
