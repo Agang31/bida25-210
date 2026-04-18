@@ -218,5 +218,14 @@ body.dark-mode {
     background-color: #333333; 
     color: #f9f9f9; 
 } 
+
+header.dark-mode {
+    background-color: #494447;
+}
+
+body.dark-mode footer {
+    background-color: #494447;
+}
+
 body.dark-mode nav { background-color: #222222; } 
 #theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; } 
