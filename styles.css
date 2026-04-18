@@ -219,13 +219,15 @@ body.dark-mode {
     color: #f9f9f9; 
 } 
 
-header.dark-mode {
-    background-color: #494447;
-}
-
-body.dark-mode footer {
-    background-color: #494447;
-}
-
 body.dark-mode nav { background-color: #222222; } 
-#theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; } 
+#theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; }
+
+@keyframes float {
+    0% {transform: translateY(20px);}
+    50% {transform: translateY(-15px);}
+    100% {transform: translateY(20px);}
+}
+
+.float-img{
+    animation: float 3s ease-in-out infinite;
+}
