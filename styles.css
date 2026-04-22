@@ -29,7 +29,7 @@ header h1 {
 }  
 
 h2, h3, h4, h5, h6 {
-    font-size: 40px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
 }
@@ -57,13 +57,14 @@ main {
     padding-bottom: 10px;
     max-width: 100%; 
     margin: 0 auto; 
-    font-size: 30px;
+    font-size: 18px;
+    overflow-x: hidden;
 } 
 
  
 
 main img { 
-    max-width: 200%; 
+    max-width: 100%; 
     height: auto; 
     display: block; 
     margin: 20px 0; 
@@ -102,6 +103,7 @@ footer {
     gap: 12px;
     margin: 10px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .puppycard:hover {
@@ -114,7 +116,7 @@ footer {
     border-color: #7af6ee;
     overflow: hidden;
     background: rgb(255, 255, 255,0.2);
-    width: 300px;
+    width: 100%;
 }
 
 .puppycard img {
@@ -139,6 +141,40 @@ footer {
     margin: 0;
     display: list-item;
     list-style-type: disc;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h3 {
+        font-size: 28px !important;
+    }
+
+    main {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .introduction {
+        flex-direction: column;   /* stack image below text */
+    }
+
+    .introduction img {
+        width: 100% !important;
+    }
+
+    .availablepup {
+        grid-template-columns: 1fr;  /* 1 column on small screens */
+    }
+
+    .puppycard ul li {
+        font-size: 14px;
+    }
 }
 
 .card {
