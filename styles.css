@@ -309,3 +309,20 @@ body.dark-mode nav { background-color: #222222; }
 .float-img{
     animation: float 3s ease-in-out infinite;
 }
+
+.download-btn {
+    background: linear-gradient(#24d1c3, #d370c4);
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    width: 250px;
+    height: 150px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.download-btn:hover {
+    background: linear-gradient(#cc61bc, #4cbbbe);
+}
