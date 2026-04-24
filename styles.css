@@ -1,11 +1,10 @@
 body { 
     font-family: Arial, sans-serif; 
-    color: #333; 
-    background-color: #f7daff; 
+    color: #000000; 
+    background-color: #f7daff;
     margin: 10px; 
     padding: 10px; 
     line-height: 1.6; 
-    transition: background-color 0.3s, color 0.3s;
 } 
 
 header { 
@@ -33,19 +32,18 @@ h2, h3, h4, h5, h6 {
     font-weight: bold;
     text-align: center;
 }
+
 nav { 
-    background: linear-gradient(#7af6ee, #393a3a);
+    background: linear-gradient(#f093ff, #66c5c5);
     padding: 15px 20px;
     width: 100%;
     box-sizing: border-box;
 }
 
 nav a {
-    color: #d45151;
-    text-decoration: none; 
     margin: 0 20px; 
     font-size: 1.1em;
-    background: none;
+    font-weight: 600;
 } 
 
 nav a:hover { 
@@ -60,8 +58,6 @@ main {
     font-size: 18px;
     overflow-x: hidden;
 } 
-
- 
 
 main img { 
     max-width: 100%; 
@@ -104,7 +100,7 @@ footer {
 }
 
 .puppycard:hover {
-    color: #e45e11;
+    color: #000000a1;
 }
 
 .puppycard {
@@ -112,7 +108,7 @@ footer {
     border-radius: 10px;
     border-color: #a90bd1;
     overflow: hidden;
-    background: rgb(255, 255, 255,0.2);
+    background: rgba(242, 0, 250, 0.199);
     width: 100%;
 }
 
@@ -294,12 +290,12 @@ footer {
 }
 
 body.dark-mode { 
-    background-color: #333333; 
+    background-color: #5e4557; 
     color: #f9f9f9; 
 } 
 
-body.dark-mode nav { background-color: #222222; } 
-#theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; }
+body.dark-mode nav { background-color: #c72a9d; } 
+#theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; background-color: #af6cac; color: white;}
 
 @keyframes float {
     0% {transform: translateY(20px);}
@@ -313,12 +309,13 @@ body.dark-mode nav { background-color: #222222; }
 
 .download-btn {
     background: linear-gradient(#24d1c3, #d370c4);
-    color: white;
+    color: rgb(17, 0, 250);
     border: none;
     padding: 20px 50px;
-    width: 250px;
-    height: 150px;
-    font-size: 16px;
+    width: 300px;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
     margin: 20px 0;
@@ -329,7 +326,8 @@ body.dark-mode nav { background-color: #222222; }
 }
 
 .form-container {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(250, 0, 0, 0.342);
+    color: white;
     border: 2px solid #a90bd1;
     border-radius: 20px;
     padding: 30px;
