@@ -5,6 +5,9 @@ const toggleButton = document.getElementById('theme-toggle');
 if (localStorage.getItem('darkMode') === 'enabled') {
     document.body.classList.add('dark-mode');
     toggleButton.textContent = 'Light Mode';
+    } else {
+    document.body.classList.remove('dark-mode');
+    toggleButton.textContent = 'Dark Mode';       
 }
 
 toggleButton.addEventListener('click', function() { 
