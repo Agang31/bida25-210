@@ -15,3 +15,8 @@ window.onload = function() {
         document.getElementById('cookie-banner').style.display = 'block';
     }
 }
+
+function acceptCookies() {
+    localStorage.setItem('cookiesAccepted', 'true');
+    document.getElementById('cookie-banner').style.display = 'none';
+}
