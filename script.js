@@ -14,7 +14,8 @@ toggleButton.addEventListener('click', function() {
         toggleButton.textContent = 'Light Mode'; 
         localStorage.setItem('darkMode', 'enabled');
     } else { 
-        toggleButton.textContent = 'Dark Mode'; 
+        toggleButton.textContent = 'Dark Mode';
+        localStorage.setItem('darkMode', 'disabled'); 
     } 
 }); 
 
