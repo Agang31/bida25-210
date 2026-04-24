@@ -343,15 +343,17 @@ body.dark-mode nav { background-color: #222222; }
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #f1f1f1;
-    padding: 15px;
+    background-color: #816475;
+    color: white;
+    padding: 16px 30px;
     text-align: center;
+    font-size: 14px;
     z-index: 9999;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 -4px 15px rgba(222, 9, 255, 0.2);
 }
 
 #cookie-banner button {
-    background-color: #4CAF50;
+    background-color: #46b9a6;
     color: white;
     border: none;
     padding: 10px 20px;
