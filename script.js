@@ -12,6 +12,7 @@ toggleButton.addEventListener('click', function() {
 
     if (document.body.classList.contains('dark-mode')) { 
         toggleButton.textContent = 'Light Mode'; 
+        localStorage.setItem('darkMode', 'enabled');
     } else { 
         toggleButton.textContent = 'Dark Mode'; 
     } 
