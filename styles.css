@@ -174,7 +174,7 @@ footer {
 .front, .back {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 300px;
     border-radius: 8px;
     backface-visibility: hidden;
 }
@@ -236,6 +236,23 @@ footer {
 
     .introduction img {
         width: 100% !important;
+    }
+
+    .donate-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .donate-section img {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .donate-section ul {
+        width: 100%;
     }
 
     .availablepup {
@@ -312,13 +329,14 @@ body.dark-mode nav { background-color: #c72a9d; }
     color: rgb(17, 0, 250);
     border: none;
     padding: 20px 50px;
-    width: 300px;
+    width: 100%;
     height: auto;
     font-size: 20px;
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
     margin: 20px 0;
+    text-align: center;
 }
 
 .download-btn:hover {
